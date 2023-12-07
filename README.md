@@ -1,37 +1,32 @@
 [![CI](https://github.com/nogibjj/python-ruff-template/actions/workflows/cicd.yml/badge.svg)](https://github.com/nogibjj/python-ruff-template/actions/workflows/cicd.yml)
-## Template for Python projects with RUFF linter
 
-![1 15_rust_built_python_tools](https://github.com/nogibjj/python-ruff-template/assets/58792/db5f7bda-a977-4c67-acbe-a70fe034fbdf)
+## Individual Project4: Auto Scaling Flask App Using Any Platform As a Service
+### Purpose:
+The purpose of this repository is to demonstrate the development and deployment of a scalable, cloud-hosted Flask application using Azure App Services. It focuses on showcasing the integration of Flask with Docker for containerization and Azure for cloud deployment and auto-scaling. In my Flask app, I created an AI Text Generator with LLM model offered by OpenAI—type a prompt, click, and let AI weave your thoughts into text.
 
+### Things included in this repository are:
 
+* `Makefile`: specifies build automation on Linux
 
-1. First thing to do on launch is to open a new shell and verify virtualenv is sourced.
+* `app.py`: a Flas app that can be deployed on Azure app, which integrates functionality of OpenAI LLM
 
-Things included are:
+* `Dockerfile`: defines the process of bulding the Docker containter
 
-* `Makefile`
+* `devcontainer`: A configuration file for setting up a development container environment which specifies how the environment should be configured upon initialization (e.g., which Docker image to use).
+Dockerfile: This file contains all the commands needed to assemble the Docker image for the Flask app, specifying the base image, dependencies, and the commands to run the app.
 
-* `Pytest`
+* `requirements.txt`: specify the dependencies (libraries and packages) required to run the project
 
-* `pandas`
+* `githubactions`(cicd.yml): A YAML file defining the GitHub Actions for continuous integration and continuous deployment (CI/CD) workflows that automate the testing and deployment process of the application.
+static
 
-* `Ruff`:  
+* `static`(style.css): The cascading style sheet file that contains the style definitions for the web application's user interface.
 
-Run `make lint` which runs `ruff check`.  You can find out more info on [Ruff here](https://github.com/astral-sh/ruff).
+* `templates`: includes HTML template for 'About', 'Home' page of the web application, and 'layout.html' that includes common elements and layout used across the web application, 'prompt.html' for the page that handles the input and display of the prompts for text generation
 
-* `Dockerfile`
-
-* `GitHub copilot`
-
-* `jupyter` and `ipython` 
-
-* A base set of libraries for devops and web
-
-* `githubactions`
-
-## References
-
-![1 1-function-essence-of-programming](https://github.com/nogibjj/python-ruff-template/assets/58792/f7f33cd3-cff5-4014-98ea-09b6a29c7557)
+### Setup Steps:
+### Part One: Setup on Azure App Service: 
+1. First, create a new App on Azure, click on `App service`
 
 
 
