@@ -1,6 +1,12 @@
 [![CI](https://github.com/nogibjj/IDS706_individualproject4_xk10/actions/workflows/cicd.yml/badge.svg)](https://github.com/nogibjj/IDS706_individualproject4_xk10/actions/workflows/cicd.yml)
 
 ## Individual Project4: Auto Scaling Flask App Using Any Platform As a Service
+### Demo Video:
+https://youtu.be/rv8cbjF6qYg
+
+### Flask App:
+openaitest-ck.azurewebsites.net
+
 ### Purpose:
 The purpose of this repository is to demonstrate the development and deployment of a scalable, cloud-hosted Flask application using Azure App Services. It focuses on showcasing the integration of Flask with Docker for containerization and Azure for cloud deployment and auto-scaling. In my Flask app, I created an AI Text Generator with LLM model offered by OpenAI—type a prompt, click, and let AI weave your thoughts into text.
 
@@ -8,7 +14,7 @@ The purpose of this repository is to demonstrate the development and deployment 
 
 * `Makefile`: specifies build automation on Linux
 
-* `app.py`: a Flas app that can be deployed on Azure app, which integrates functionality of OpenAI LLM
+* `app.py`: a Flask app that can be deployed on Azure app, which integrates functionality of OpenAI LLM
 
 * `Dockerfile`: defines the process of bulding the Docker containter
 
