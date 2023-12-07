@@ -45,12 +45,16 @@ static
 ### In Codespace:
 1. create a Dockerfile, which creates an image with Python 3.10, copies project files, installs dependencies from requirements.txt, launches the Flask app, and exposes port 5000 in a single build process.
 2. Use the following command to build docker file.
-````docker build myapp
-docker run -p 5000:5000 myapp````
+```
+docker build myapp
+docker run -p 5000:5000 myapp
+```
 3. Run the following command to build and push the image to the repository
-```docker login --<insert username>
+```
+docker login --<insert username>
 docker build -t <insert username>/<insert repo name> .
-docker push <insert username>/<insert repo name>```
+docker push <insert username>/<insert repo name>
+```
 ![Picture3](https://github.com/nogibjj/IDS706_individualproject4_xk10/assets/143849077/1b8fe115-02c2-4d09-a9d7-ce3d37ad9326)
 ![Picture4](https://github.com/nogibjj/IDS706_individualproject4_xk10/assets/143849077/d343f18b-1606-4774-b50f-f9f6a815489b)
 ![Picture5](https://github.com/nogibjj/IDS706_individualproject4_xk10/assets/143849077/ceee6ddb-fbab-4a7f-9d29-78582884ddc4)
