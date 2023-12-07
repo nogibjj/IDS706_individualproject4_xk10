@@ -11,4 +11,4 @@ lint:
 test:
 	python3 -m pytest -vv --cov=main test_*.py
 		
-all: install format lint test 
+all: install format lint test  
