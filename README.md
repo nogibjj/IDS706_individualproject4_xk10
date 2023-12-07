@@ -45,17 +45,18 @@ static
 ### In Codespace:
 1. create a Dockerfile, which creates an image with Python 3.10, copies project files, installs dependencies from requirements.txt, launches the Flask app, and exposes port 5000 in a single build process.
 2. Use the following command to build docker file.
-`docker build myapp
-docker run -p 9000:9000 myapp`
+````docker build myapp
+docker run -p 5000:5000 myapp````
 3. Run the following command to build and push the image to the repository
-`docker login --<insert username>
+```docker login --<insert username>
 docker build -t <insert username>/<insert repo name> .
-docker push <insert username>/<insert repo name>`
+docker push <insert username>/<insert repo name>```
 ![Picture3](https://github.com/nogibjj/IDS706_individualproject4_xk10/assets/143849077/1b8fe115-02c2-4d09-a9d7-ce3d37ad9326)
 ![Picture4](https://github.com/nogibjj/IDS706_individualproject4_xk10/assets/143849077/d343f18b-1606-4774-b50f-f9f6a815489b)
 ![Picture5](https://github.com/nogibjj/IDS706_individualproject4_xk10/assets/143849077/ceee6ddb-fbab-4a7f-9d29-78582884ddc4)
 
-After all these steps, you should be able to browse the webapp from the default domain provided on Azure (openaitest-ck.azurewebsites.net). Here's an overview of my App:
+After all these steps, you should be able to browse the webapp from the default domain provided on Azure(openaitest-ck.azurewebsites.net).
+Here's an overview of my App:
 ![Picture6](https://github.com/nogibjj/IDS706_individualproject4_xk10/assets/143849077/49f549d8-69c4-49b8-ad0d-fa371324e254)
 ![Picture7](https://github.com/nogibjj/IDS706_individualproject4_xk10/assets/143849077/cb2dc138-1a8c-470d-8ec1-c6de7c0c7ca3)
 ![Picture8](https://github.com/nogibjj/IDS706_individualproject4_xk10/assets/143849077/fb604369-084d-4352-8671-542a7fa17870)
