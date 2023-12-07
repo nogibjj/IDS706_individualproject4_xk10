@@ -26,7 +26,7 @@ static
 
 ### Setup Steps:
 ### Preparation:
-1. Modify the `requirement.txt` file to install `Flask' pakcages in Github Codespace
+1. Modify the `requirement.txt` file to install `Flask' packages in Github Codespace
 2. Login to Azure 
 3. Create account in DockerHubCreate, and a Docker Repository on DockerHub for incoming Docker image
 ![Screen Shot 2023-12-07 at 01 33 04](https://github.com/nogibjj/IDS706_individualproject4_xk10/assets/143849077/86fc292c-f55f-4160-9f33-4b2d9707cd4c)
