@@ -46,7 +46,8 @@ static
 3. For 'Docker', select 'Docker Hub' for 'image Source', copy and paste the repository name from Docker hub for 'Image and tag'
 ![Screen Shot 2023-12-07 at 01 07 34](https://github.com/nogibjj/IDS706_individualproject4_xk10/assets/143849077/91b0c2d8-0e02-41ec-ad99-523517547d91)
 4. In 'Configuration' under settings, create a new application setting and name it 'WEBSITES_PORT' with value of 5000
-![Screen Shot 2023-12-07 at 01 33 04](https://github.com/nogibjj/IDS706_individualproject4_xk10/assets/143849077/199d2026-8de8-4d1c-a554-6a62e804ee00)
+<img width="1001" alt="Screen Shot 2023-12-07 at 13 25 45" src="https://github.com/nogibjj/IDS706_individualproject4_xk10/assets/143849077/ab4283e8-5e42-4df6-9f58-350ba2170d59">
+
 
 ### In Codespace:
 1. create a Dockerfile, which creates an image with Python 3.10, copies project files, installs dependencies from requirements.txt, launches the Flask app, and exposes port 5000 in a single build process.
