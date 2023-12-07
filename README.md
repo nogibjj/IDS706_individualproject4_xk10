@@ -1,4 +1,4 @@
-[![CI](https://github.com/nogibjj/python-ruff-template/actions/workflows/cicd.yml/badge.svg)](https://github.com/nogibjj/python-ruff-template/actions/workflows/cicd.yml)
+[![CI](https://github.com/nogibjj/IDS706_individualproject4_xk10/actions/workflows/cicd.yml/badge.svg)](https://github.com/nogibjj/IDS706_individualproject4_xk10/actions/workflows/cicd.yml)
 
 ## Individual Project4: Auto Scaling Flask App Using Any Platform As a Service
 ### Purpose:
