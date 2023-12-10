@@ -53,7 +53,7 @@ static
 1. create a Dockerfile, which creates an image with Python 3.10, copies project files, installs dependencies from requirements.txt, launches the Flask app, and exposes port 5000 in a single build process.
 2. Use the following command to build docker file.
 ```
-docker build myapp
+docker build -t myapp .
 docker run -p 5000:5000 myapp
 ```
 3. Run the following command to build and push the image to the repository
